@@ -209,35 +209,6 @@ svg.img-flex {
   width: 100%;
 }
 
-.media {
-  overflow: hidden;
-}
-
-.media-img, .media__img {
-  float: left;
-}
-
-.media-img-reversed, .media__img--reversed {
-  float: right;
-}
-
-.media-img-stacked, .media__img--stacked {
-  float: none;
-}
-
-.media-body, .media__body {
-  overflow: hidden;
-  min-width: 12em; /* Slightly less than 200px, responsiveness built in */
-}
-
-.icon {
-  display: inline-block;
-  position: relative;
-  background: transparent none no-repeat center center;
-  background-size: contain;
-  vertical-align: middle;
-}
-
 .i-16, .i--16 {
   height: 16px;
   width: 16px;
@@ -1149,11 +1120,6 @@ a:focus, [tabindex="0"]:focus {
 
 [aria-disabled] {
   cursor: default;
-}
-
-.print-only {
-  display: none;
-  visibility: hidden;
 }
 
 .page-break-before {
